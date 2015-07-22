@@ -3,9 +3,10 @@ kenya-election-data
 
 Borrowed code and data from https://github.com/mikelmaron/kenya-election-data.
 
-Rewrote his code to crawl http://vote.iebc.or.ke/ and output the shapefiles of the voting wards with all accomapnying attributes. 
+Rewrote his code to crawl http://vote.iebc.or.ke/ and output the shapefiles of the voting wards with all accompanying attributes. 
 
 Changes: 
+
 1/ Append constituency code + "_" in front of ward name:
 Ex: 1_AIRPORT means that AIRPORT ward belongs to the constituency whose code is 1. 
 
